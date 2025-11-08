@@ -4,8 +4,8 @@ public class Cheers {
 	String userName = args[0];
         int userNumber = Integer.parseInt(args[1]);
         String anChars = "aefhilmnorsxAEFHILMNORSX";
-        for (int count = 0; count < userName.length(); count++){
-                char c = userName.charAt(count);
+        for (int i = 0; i < userName.length(); i++){
+                char c = userName.charAt(i);
                 if (anChars.indexOf(c) == -1){
                 System.out.println("Give me a  " + Character.toUpperCase(c) + ": " + Character.toUpperCase(c) + "!");      
                 } else {
