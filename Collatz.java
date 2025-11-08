@@ -9,7 +9,7 @@ public class Collatz {
 		long number = i;
 
 		if (mode.equals("v")){
-		System.out.print(number);
+	System.out.print(number);
 		}
 		
 		while (number != 1){
@@ -26,7 +26,7 @@ public class Collatz {
 			
 	}
 	if (mode.equals("v"))	{
-	System.out.println(" (" + steps + ")");
+System.out.println(" (" + steps + ")");
 	}
 }
 System.out.println("Every one of the first " + userNumber + " hailstone sequences reached 1.");
