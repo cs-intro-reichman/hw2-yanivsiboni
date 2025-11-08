@@ -16,9 +16,9 @@ public class Cheers {
         while (count < userNumber + 1){
                 char c = userName.charAt(index);
                 if (anChars.indexOf(c) == -1){
-                System.out.println("Give me a " + Character.toUpperCase(c) + ": " + Character.toUpperCase(c) + "!");      
+                System.out.println("Give me a  " + Character.toUpperCase(c) + ": " + Character.toUpperCase(c) + "!");      
                 } else {
-                        System.out.println("Give me an " + Character.toUpperCase(c) + ": " + Character.toUpperCase(c) + "!");
+                        System.out.println("Give me an  " + Character.toUpperCase(c) + ": " + Character.toUpperCase(c) + "!");
                 }
                 count++;
                 index++;
