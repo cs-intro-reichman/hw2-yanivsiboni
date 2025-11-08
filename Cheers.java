@@ -9,7 +9,7 @@ public class Cheers {
                 if (anChars.indexOf(c) == -1){
                 System.out.println("Give me a  " + Character.toUpperCase(c) + ": " + Character.toUpperCase(c) + "!");      
                 } else {
-                        System.out.println("Give me an  " + Character.toUpperCase(c) + ": " + Character.toUpperCase(c) + "!");
+                        System.out.println("Give me an " + Character.toUpperCase(c) + ": " + Character.toUpperCase(c) + "!");
                 }
                 }
                 System.out.println("What does that spell?");
